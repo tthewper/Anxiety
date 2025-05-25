@@ -1,4 +1,59 @@
 body{
     background-color: rgb(104, 7, 174);
 }
-#mainHeader{font-size: 100px; color: white; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+html, body{
+    margin: 0%;padding: 0%;
+}
+header{
+    text-align: center;
+}
+#mainHeader{
+    font-size: 8vw; color: white;
+    text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 2vw;position: absolute;
+    top: 52.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.imageContainer{
+    position: relative; width: 100% px;
+}
+
+#heroBanner{
+    align-content: center;
+}
+.responsiveImage{
+    width: 100%; height: auto; display: block;
+}
+.roundIcon {
+    display: center;
+    width: 500px;
+    height: auto;
+    border: solid;
+    border-width: 25px;
+    border-color: #e8e1da;
+    border-radius: 50%;
+}
+#profilePicture{
+    position: absolute;
+    bottom: -10vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25vw;
+    height: auto;
+    z-index: 1;
+}
+#meet{
+    position: absolute;
+    bottom: 1vw;
+    left: 25%;
+    width: 5vw;
+    height: auto;
+    z-index: 1;
+
+}
+
+
+/* color: #c575ff; */
