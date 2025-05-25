@@ -1,5 +1,5 @@
 
-.pfp {width: 100%;
+.heroImage {width: 100%;
     height: 100%;
     background-image: url('./../img/heroImage.png');
     background-size: 100%;
@@ -8,6 +8,24 @@
     position: absolute;
     margin: 0 0 0 0;
     z-index: 1;
+}
+
+.profilePicture {
+    background-image: url('./../img/profilePicture.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: solid;
+    border-width: 1vw;
+    border-color: #e8e1da;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25vw;
+    height: 25vw;
+    z-index: 1;
+
 }
 
 header{
@@ -54,7 +72,7 @@ html, body{
 .responsiveImage{
     width: 100%; height: auto; display: block;
 }
-.roundIcon {
+/* .roundIcon {
     display: center;
     width: 500px;
     height: auto;
@@ -62,8 +80,8 @@ html, body{
     border-width: 1vw;
     border-color: #e8e1da;
     border-radius: 50%;
-}
-#profilePicture{
+} */
+/* #profilePicture{
     position: absolute;
     bottom: -10vw;
     left: 50%;
@@ -71,15 +89,15 @@ html, body{
     width: 25vw;
     height: auto;
     z-index: 1;
-}
-#meet{
+} */
+/* #meet{
     position: absolute;
     bottom: -17vw;
     left: 22%;
     width: 20vw;
     height: auto;
     z-index: 3;
-}
+} */
 #subHeader1{
     font-family: "Roboto", sans-serif;
     font-size: 3vw;
