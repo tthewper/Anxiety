@@ -1,3 +1,4 @@
 body{
-    background-color: indigo;
+    background-color: rgb(104, 7, 174);
 }
+#mainHeader{font-size: 100px; color: white; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
