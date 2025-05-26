@@ -3,13 +3,32 @@
 
 body{
     position: relative;
-    background-color: rgb(161 119 186);
+    background-color: rgb(40, 40, 40);
     margin: 0%;
+    height: auto;
 }
 
 html, body{
     margin: 0%;padding: 0%;
 }
+
+body, main {
+    padding: 0%;
+    margin: 0%;
+}
+
+.heading{ font-family: "Roboto", sans-serif;
+}
+
+.copy{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 2vw;
+}
+
 
 .heroImage {
     width: 100%;
@@ -105,30 +124,25 @@ main{
     margin-top: 0px;
 }
 .aboutPicture{
-    background-image: url(./../img/aboutPicture.png);
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    left: 5%;
-    width: 25vw;
-    height: 30vw;
+    left: 0%;
+    width: 30vw;
     padding: 5vw;
     margin: 1vw;
     z-index: 1;
 
 }
 
-.heading{ font-family: "Roboto", sans-serif;
-}
+.mainCard1{
+    width: 100%;
+    height: 43vw;
+    background-color: rgb(161 119 186);
+    position: relative;
+    z-index: 1;
 
-.copy{
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-    font-size: 2vw;
 }
 
 #aboutCopy{
@@ -136,50 +150,52 @@ main{
     color: white;
     padding-top: 12vw;
     position: absolute;
-    left: 65%;
+    left: 67%;
     transform: translateX(-50%);
     z-index: 2;
-    width: 46vw;
+    width: 49vw;
 }
 #aboutAnxiety{
-     font-size: 3vw;
+    font-size: 3vw;
     color: white;
     padding-top: 7vw;
     position: absolute;
-    left: 51.5%;
+    left: 52%;
     transform: translateX(-50%);
     z-index: 2;
 }
 
 .fullWidthBar{
-    position:absolute;
-    width: 100%;
-    height: 10vw;
+    width: 100vw;
+    height: 7vw;
     background-color: #f5bc57;
-    margin-top: 36vw;
+    margin-top: 0;
     z-index: 0;
 }
 
-.mainSection2{
-    position:absolute;
-    width: 100%;
-    height: 50vw;
+.mainCard2{
+    position:relative;
+    width: 100vw;
+    height: 40vw;
     background-color: #ffffff;
-    margin-top: 41vw;
+    margin-top: 0;
+    padding: 0;
     z-index: 0;
 
 }
 
-#headerSection2{
+#headerCard2{
     color: #c575ff;
     position: absolute;
     left: 0%;
-    padding-top: 36vw;
+    margin: 0%;
+    padding-top: 0;
     font-size: 10vw;
 }
 .noStyleList{
     list-style: none;
     padding: 0%;
+    margin: 0%;
 }
 #list{ 
     font-family: "Roboto", sans-serif;
@@ -189,8 +205,8 @@ main{
     font-variation-settings: "wdth" 100;
     font-size: 2vw;
     text-align: left;
-    position: absolute;
-    bottom: -118%;
+    position:static;
+    bottom: 0;
     left: 0;
     z-index: 4;
 }
@@ -199,7 +215,9 @@ main{
     padding: 1vw;
 }
 
-.heading{ font-family: "Roboto", sans-serif;
-    font-weight: 700;
+.headingList{ font-family: "Roboto", sans-serif;
+    font-weight: 900;
 }
 /* color: #c575ff; */
+
+/* backgound color rgb(161 119 186); */
