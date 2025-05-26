@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Dela+Gothic+One&family=Mouse+Memoirs&family=Roboto:ital,wght@0,900;1,900&family=Slackey&display=swap');
 
-.heroImage {width: 100%;
+body{
+    background-color: rgb(161 119 186);
+}
+
+html, body{
+    margin: 0%;padding: 0%;
+}
+
+.heroImage {
+    width: 100%;
     height: 100%;
     background-image: url('./../img/heroImage.png');
     background-size: 100%;
@@ -29,7 +38,8 @@
 
 }
 
-.meet { background-image: url(./../img/meet.png);
+.meet { 
+    background-image: url(./../img/meet.png);
     position: absolute;
     width: 21vw;
     height: 23vw;
@@ -48,13 +58,7 @@ header{
     height: 79vw;
     z-index: 0;
 }
-body{
-    background-color: rgb(161 119 186);
-}
 
-html, body{
-    margin: 0%;padding: 0%;
-}
 #mainHeader{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
