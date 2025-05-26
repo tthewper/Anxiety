@@ -149,4 +149,14 @@ p{
     margin-top: 36vw;
     z-index: 0;
 }
+
+.mainSection2{
+    position:absolute;
+    width: 100%;
+    height: 50vw;
+    background-color: #ffffff;
+    margin-top: 41vw;
+    z-index: 0;
+
+}
 /* color: #c575ff; */
