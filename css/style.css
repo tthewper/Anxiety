@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Dela+Gothic+One&family=Mouse+Memoirs&family=Roboto:ital,wght@0,900;1,900&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Dela+Gothic+One&family=Mouse+Memoirs&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Slackey&display=swap');
+
 
 body{
+    position: relative;
     background-color: rgb(161 119 186);
     margin: 0%;
 }
@@ -117,20 +119,19 @@ main{
 
 }
 
-.h2{ font-family: "Roboto", sans-serif;
-    font-size: 3vw;
-    color: white;
-    padding-top: 7vw;
-    position: absolute;
-    left: 51.5%;
-    transform: translateX(-50%);
-    z-index: 2;
+.heading{ font-family: "Roboto", sans-serif;
 }
 
-p{
+.copy{
     font-family: "Roboto", sans-serif;
-    font-weight: lighter;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
     font-size: 2vw;
+}
+
+#aboutCopy{
     text-align: left;
     color: white;
     padding-top: 12vw;
@@ -139,6 +140,15 @@ p{
     transform: translateX(-50%);
     z-index: 2;
     width: 46vw;
+}
+#aboutAnxiety{
+     font-size: 3vw;
+    color: white;
+    padding-top: 7vw;
+    position: absolute;
+    left: 51.5%;
+    transform: translateX(-50%);
+    z-index: 2;
 }
 
 .fullWidthBar{
@@ -158,5 +168,38 @@ p{
     margin-top: 41vw;
     z-index: 0;
 
+}
+
+#headerSection2{
+    color: #c575ff;
+    position: absolute;
+    left: 0%;
+    padding-top: 36vw;
+    font-size: 10vw;
+}
+.noStyleList{
+    list-style: none;
+    padding: 0%;
+}
+#list{ 
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 2vw;
+    text-align: left;
+    position: absolute;
+    bottom: -118%;
+    left: 0;
+    z-index: 4;
+}
+
+.listLine{
+    padding: 1vw;
+}
+
+.heading{ font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 /* color: #c575ff; */
