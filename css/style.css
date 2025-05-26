@@ -1,10 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Dela+Gothic+One&family=Mouse+Memoirs&family=Roboto:ital,wght@0,900;1,900&family=Slackey&display=swap');
 
-header{
-    text-align: center;
-    background-color: rgb(104, 7, 174);
-    height: 77vw;
+.heroImage {width: 100%;
+    height: 100%;
+    background-image: url('./../img/heroImage.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: 1;
 }
 
+.profilePicture {
+    background-image: url('./../img/profilePicture.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: solid;
+    border-width: 1vw;
+    border-color: #e8e1da;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25vw;
+    height: 25vw;
+    z-index: 1;
+
+}
+
+.meet { background-image: url(./../img/meet.png);
+    position: absolute;
+    width: 21vw;
+    height: 23vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 22%;
+    bottom: 11.7%;
+    z-index: 3;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    background-color: rgb(104, 7, 174);
+    height: 79vw;
+    z-index: 0;
+}
 body{
     background-color: rgb(161 119 186);
 }
@@ -12,64 +55,20 @@ body{
 html, body{
     margin: 0%;padding: 0%;
 }
-
-.mouse-memoirs-regular {
-  font-family: "Mouse Memoirs", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.slackey-regular {
-  font-family: "Slackey", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 #mainHeader{
-    font-size: 8vw; color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: white;
     text-align: center;
-    padding-top: 2vw;position: absolute;
-    top: 52vw;
+    padding-top: 2vw;
+    position: absolute;
+    top: 51.75vw;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
 }
-.imageContainer{
-    position: relative; width: 100% px;
-}
 
-#heroBanner{
-    align-content: center;
-}
-.responsiveImage{
-    width: 100%; height: auto; display: block;
-}
-.roundIcon {
-    display: center;
-    width: 500px;
-    height: auto;
-    border: solid;
-    border-width: 1vw;
-    border-color: #e8e1da;
-    border-radius: 50%;
-}
-#profilePicture{
-    position: absolute;
-    bottom: -10vw;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 25vw;
-    height: auto;
-    z-index: 1;
-}
-#meet{
-    position: absolute;
-    bottom: -17vw;
-    left: 22%;
-    width: 20vw;
-    height: auto;
-    z-index: 3;
-}
 #subHeader1{
     font-family: "Roboto", sans-serif;
     font-size: 3vw;
@@ -89,7 +88,7 @@ html, body{
     text-align: center;
     padding-top: 2vw;
     position: absolute;
-    top: 70vw;
+    top: 69.5vw;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
